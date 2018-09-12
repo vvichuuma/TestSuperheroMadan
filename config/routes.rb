@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
  namespace :api do 
 
+   root "tas" => "tasks#inda"
+
     get "tas" => "tasks#index"
 
  end 
